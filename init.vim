@@ -45,6 +45,9 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 " Run your tests at the speed of thought
 Plug 'janko/vim-test'
 
+" Send command from vim to a running tmux session
+Plug 'jgdavey/tslime.vim'
+
 call plug#end()
 
 " defines the leader key
