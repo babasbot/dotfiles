@@ -30,6 +30,9 @@ Plug 'tpope/vim-eunuch'
 " Wisely add 'end' in ruby
 Plug 'tpope/vim-endwise'
 
+" Ruby on Rails power tools
+Plug 'tpope/vim-rails'
+
 call plug#end()
 
 " sets the gruvbox color scheme
