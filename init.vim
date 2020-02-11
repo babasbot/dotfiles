@@ -41,3 +41,6 @@ set number
 
 " highlight current line
 set cursorline
+
+" highlight curent column
+set cursorcolumn
