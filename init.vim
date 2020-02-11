@@ -54,6 +54,10 @@ if has('nvim') && !exists('g:fzf_layout')
     \| autocmd BufLeave <buffer> set laststatus=2 showmode ruler
 endif
 
+" run neomake when writing or reading a buffer, and on changes in insert and
+" normal mode (after 500ms; no delay when writing)
+call neomake#configure#automake('nrwi', 500)
+
 " display line numbers
 set number
 
