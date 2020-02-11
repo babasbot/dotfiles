@@ -30,6 +30,9 @@ Plug 'tpope/vim-eunuch'
 " Wisely add 'end' in ruby
 Plug 'tpope/vim-endwise'
 
+" Configurations for editing Ruby files
+Plug 'vim-ruby/vim-ruby'
+
 " Ruby on Rails power tools
 Plug 'tpope/vim-rails'
 
