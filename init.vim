@@ -27,6 +27,9 @@ Plug '/usr/local/opt/fzf'
 " Vim sugar for the UNIX shell commands
 Plug 'tpope/vim-eunuch'
 
+" Wisely add 'end' in ruby
+Plug 'tpope/vim-endwise'
+
 call plug#end()
 
 " sets the gruvbox color scheme
