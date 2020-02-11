@@ -24,6 +24,9 @@ Plug 'vim-airline/vim-airline-themes'
 " A general-purpose command-line fuzzy finder
 Plug '/usr/local/opt/fzf'
 
+" Vim sugar for the UNIX shell commands
+Plug 'tpope/vim-eunuch'
+
 call plug#end()
 
 " sets the gruvbox color scheme
