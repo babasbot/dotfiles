@@ -18,4 +18,7 @@ Plug 'tpope/vim-surround'
 " Lean & mean status/tabline that's light as air
 Plug 'vim-airline/vim-airline'
 
+" The official theme repository for vim-airline
+Plug 'vim-airline/vim-airline-themes'
+
 call plug#end()
