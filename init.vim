@@ -56,6 +56,13 @@ colorscheme gruvbox
 " sets the grucbox theme for the airline plugin
 let g:airline_theme='base16_gruvbox_dark_hard'
 
+" vim-test mappings
+nmap <silent> t<C-n> :TestNearest<CR>
+nmap <silent> t<C-f> :TestFile<CR>
+nmap <silent> t<C-s> :TestSuite<CR>
+nmap <silent> t<C-l> :TestLast<CR>
+nmap <silent> t<C-g> :TestVisit<CR>
+
 " hides fzf status line
 if has('nvim') && !exists('g:fzf_layout')
   autocmd! FileType fzf
