@@ -42,6 +42,9 @@ Plug 'neomake/neomake'
 " Asynchronous completion framework for neovim
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
+" Run your tests at the speed of thought
+Plug 'janko/vim-test'
+
 call plug#end()
 
 " defines the leader key
