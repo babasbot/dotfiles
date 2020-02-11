@@ -21,6 +21,9 @@ Plug 'vim-airline/vim-airline'
 " The official theme repository for vim-airline
 Plug 'vim-airline/vim-airline-themes'
 
+" A general-purpose command-line fuzzy finder
+Plug '/usr/local/opt/fzf'
+
 call plug#end()
 
 " sets the grucbox theme for the airline plugin
