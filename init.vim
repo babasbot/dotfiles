@@ -22,3 +22,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
+
+" sets the grucbox theme for the airline plugin
+let g:airline_theme='base16_gruvbox_dark_hard'
