@@ -15,4 +15,7 @@ Plug 'tpope/vim-fugitive'
 " Quoting/Parenthesizing made simple
 Plug 'tpope/vim-surround'
 
+" Lean & mean status/tabline that's light as air
+Plug 'vim-airline/vim-airline'
+
 call plug#end()
