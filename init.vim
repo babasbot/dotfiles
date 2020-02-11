@@ -59,6 +59,9 @@ colorscheme gruvbox
 " sets the grucbox theme for the airline plugin
 let g:airline_theme='base16_gruvbox_dark_hard'
 
+" runs test commands in a tmux pane
+let test#strategy = 'tslime'
+
 " vim-test mappings
 nmap <silent> t<C-n> :TestNearest<CR>
 nmap <silent> t<C-f> :TestFile<CR>
