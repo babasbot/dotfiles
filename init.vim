@@ -39,6 +39,9 @@ Plug 'tpope/vim-rails'
 " An asynchronous linting and make framework
 Plug 'neomake/neomake'
 
+" Asynchronous completion framework for neovim
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
 call plug#end()
 
 " defines the leader key
