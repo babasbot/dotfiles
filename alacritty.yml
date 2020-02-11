@@ -530,7 +530,7 @@ font:
 # binding with the same triggers is defined. To unset a default binding, it can
 # be mapped to the `ReceiveChar` action. Alternatively, you can use `None` for
 # a no-op if you do not wish to receive input characters for that binding.
-#key_bindings:
+key_bindings:
   # (Windows, Linux, and BSD only)
   #- { key: V,        mods: Control|Shift, action: Paste            }
   #- { key: C,        mods: Control|Shift, action: Copy             }
@@ -567,3 +567,15 @@ font:
   #- { key: PageDown,  mods: Shift,   action: ScrollPageDown, mode: ~Alt       }
   #- { key: Home,      mods: Shift,   action: ScrollToTop,    mode: ~Alt       }
   #- { key: End,       mods: Shift,   action: ScrollToBottom, mode: ~Alt       }
+
+  # Bindings for MacBookPro 16" (es-MX)
+  - { key: 10,    mods: Alt, chars: "\x5c" }
+  - { key: 18,    mods: Alt, chars: "|"    }
+  - { key: Key2,  mods: Alt, chars: "@"    }
+  - { key: Key3,  mods: Alt, chars: "#"    }
+  - { key: Key6,  mods: Alt, chars: "¬"    }
+  - { key: 39,    mods: Alt, chars: "{"    }
+  - { key: 42,    mods: Alt, chars: "}"    }
+  - { key: 33,    mods: Alt, chars: "["    }
+  - { key: 30,    mods: Alt, chars: "]"    }
+  - { key: Grave, mods: Alt, chars: "~"    }
