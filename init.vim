@@ -41,6 +41,9 @@ Plug 'neomake/neomake'
 
 call plug#end()
 
+" defines the leader key
+let mapleader = ','
+
 " sets the gruvbox color scheme
 colorscheme gruvbox
 
