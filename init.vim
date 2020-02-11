@@ -28,3 +28,10 @@ call plug#end()
 
 " sets the grucbox theme for the airline plugin
 let g:airline_theme='base16_gruvbox_dark_hard'
+
+" hides fzf status line
+if has('nvim') && !exists('g:fzf_layout')
+  autocmd! FileType fzf
+  autocmd  FileType fzf set laststatus=0 noshowmode noruler
+    \| autocmd BufLeave <buffer> set laststatus=2 showmode ruler
+endif
