@@ -36,6 +36,9 @@ Plug 'vim-ruby/vim-ruby'
 " Ruby on Rails power tools
 Plug 'tpope/vim-rails'
 
+" An asynchronous linting and make framework
+Plug 'neomake/neomake'
+
 call plug#end()
 
 " sets the gruvbox color scheme
