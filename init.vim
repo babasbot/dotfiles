@@ -26,6 +26,9 @@ Plug '/usr/local/opt/fzf'
 
 call plug#end()
 
+" sets the gruvbox color scheme
+colorscheme gruvbox
+
 " sets the grucbox theme for the airline plugin
 let g:airline_theme='base16_gruvbox_dark_hard'
 
