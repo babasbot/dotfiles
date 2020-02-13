@@ -48,6 +48,9 @@ Plug 'janko/vim-test'
 " Send command from vim to a running tmux session
 Plug 'jgdavey/tslime.vim'
 
+" Display the indention levels with thin vertical lines
+Plug 'Yggdroot/indentLine'
+
 call plug#end()
 
 " defines the leader key
