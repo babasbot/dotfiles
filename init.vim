@@ -79,6 +79,9 @@ if has('nvim') && !exists('g:fzf_layout')
     \| autocmd BufLeave <buffer> set laststatus=2 showmode ruler
 endif
 
+" sets the indent line color to grey
+let g:indentLine_setColors=1
+
 " enable deoplete on startup
 let g:deoplete#enable_at_startup = 1
 
