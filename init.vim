@@ -54,6 +54,9 @@ Plug 'Yggdroot/indentLine'
 " Insert or delete brackets, parens, quotes in pair
 Plug 'jiangmiao/auto-pairs'
 
+" Run your favorite search tool from Vim
+Plug 'mileszs/ack.vim'
+
 call plug#end()
 
 " defines the leader key
