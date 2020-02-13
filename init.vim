@@ -51,6 +51,9 @@ Plug 'jgdavey/tslime.vim'
 " Display the indention levels with thin vertical lines
 Plug 'Yggdroot/indentLine'
 
+" Insert or delete brackets, parens, quotes in pair
+Plug 'jiangmiao/auto-pairs'
+
 call plug#end()
 
 " defines the leader key
