@@ -83,6 +83,9 @@ let g:deoplete#enable_at_startup = 1
 " normal mode (after 500ms; no delay when writing)
 call neomake#configure#automake('nrwi', 500)
 
+" configures the powerline font for the airline plugin
+let g:airline_powerline_fonts = 1
+
 " display line numbers
 set number
 
