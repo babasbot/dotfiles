@@ -104,5 +104,10 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# opens tmux on start
+if [[ ! $TERM =~ screen ]]; then
+  exec tmux -u
+fi
+
 # fzf auto-completion and bindings
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
