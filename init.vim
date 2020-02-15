@@ -100,6 +100,12 @@ if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
 
+" highlight .inc, .s files
+filetype plugin indent on
+augroup filetypedetect
+  au BufNewFile,BufRead *.s,*.inc set ft=asm_ca65
+augroup END
+
 " sets the indent line color to grey
 let g:indentLine_setColors=1
 
