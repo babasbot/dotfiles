@@ -57,6 +57,9 @@ Plug 'jiangmiao/auto-pairs'
 " Run your favorite search tool from Vim
 Plug 'mileszs/ack.vim'
 
+" Javascript indentation and syntax support
+Plug 'pangloss/vim-javascript'
+
 call plug#end()
 
 " defines the leader key
