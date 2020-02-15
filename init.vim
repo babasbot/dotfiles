@@ -102,6 +102,9 @@ let g:indentLine_setColors=1
 " enable deoplete on startup
 let g:deoplete#enable_at_startup = 1
 
+" Enables colorful config flag for vim-jsx-pretty
+let g:vim_jsx_pretty_colorful_config = 1
+
 " run neomake when writing or reading a buffer, and on changes in insert and
 " normal mode (after 500ms; no delay when writing)
 call neomake#configure#automake('nrwi', 500)
