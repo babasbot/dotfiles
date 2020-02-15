@@ -60,6 +60,9 @@ Plug 'mileszs/ack.vim'
 " Javascript indentation and syntax support
 Plug 'pangloss/vim-javascript'
 
+" React syntax highlighting and indenting plugin
+Plug 'maxmellon/vim-jsx-pretty'
+
 call plug#end()
 
 " defines the leader key
