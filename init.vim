@@ -63,6 +63,9 @@ Plug 'pangloss/vim-javascript'
 " React syntax highlighting and indenting plugin
 Plug 'maxmellon/vim-jsx-pretty'
 
+" Typescript syntax files for Vim
+Plug 'leafgarland/typescript-vim'
+
 " Syntax-highlighting plugin, auto-indent plugin, and filetype plugin
 " for the ca65 assembly language
 Plug 'maxbane/vim-asm_ca65'
