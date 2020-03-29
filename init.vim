@@ -73,6 +73,9 @@ Plug 'peitalin/vim-jsx-typescript'
 " for the ca65 assembly language
 Plug 'maxbane/vim-asm_ca65'
 
+" Wrapper for prettier, pre-configured with custom default prettier settings
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+
 call plug#end()
 
 " defines the leader key
