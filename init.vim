@@ -76,6 +76,9 @@ Plug 'maxbane/vim-asm_ca65'
 " Wrapper for prettier, pre-configured with custom default prettier settings
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
+" Auto close (X)HTML tags
+Plug 'alvan/vim-closetag'
+
 call plug#end()
 
 " defines the leader key
@@ -89,6 +92,8 @@ let g:airline_theme='base16_gruvbox_dark_hard'
 
 " runs test commands in a tmux pane
 let test#strategy = 'tslime'
+
+let g:closetag_filenames = "*.html,*.xml,*.jsx,*.tsx"
 
 " vim-test mappings
 nmap <silent> t<C-n> :TestNearest<CR>
