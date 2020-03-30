@@ -71,23 +71,23 @@ tmux_conf_theme_pane_indicator='#83a598'                # light blue
 tmux_conf_theme_pane_active_indicator='#83a598'         # light blue
 
 # status line style
-tmux_conf_theme_message_fg='#32302f'                    # black
+tmux_conf_theme_message_fg='#3c3836'                    # black
 tmux_conf_theme_message_bg='#fabd2f'                    # yellow
 tmux_conf_theme_message_attr='bold'
 
 # status line command style (<prefix> : Escape)
 tmux_conf_theme_message_command_fg='#fabd2f'            # yellow
-tmux_conf_theme_message_command_bg='#32302f'            # black
+tmux_conf_theme_message_command_bg='#3c3836'            # black
 tmux_conf_theme_message_command_attr='bold'
 
 # window modes style
-tmux_conf_theme_mode_fg='#32302f'                       # black
+tmux_conf_theme_mode_fg='#3c3836'                       # black
 tmux_conf_theme_mode_bg='#fabd2f'                       # yellow
 tmux_conf_theme_mode_attr='bold'
 
 # status line style
 tmux_conf_theme_status_fg='#928374'                     # light gray
-tmux_conf_theme_status_bg='#32302f'                     # dark gray
+tmux_conf_theme_status_bg='#3c3836'                     # dark gray
 tmux_conf_theme_status_attr='none'
 
 # terminal title
@@ -109,7 +109,7 @@ tmux_conf_theme_terminal_title='#h ❐ #S ● #I #W'
 #     - #{username}
 #     - #{username_ssh}
 tmux_conf_theme_window_status_fg='#928374'              # light gray
-tmux_conf_theme_window_status_bg='#32302f'              # dark gray
+tmux_conf_theme_window_status_bg='#3c3836'              # dark gray
 tmux_conf_theme_window_status_attr='none'
 tmux_conf_theme_window_status_format='#I #W'
 #tmux_conf_theme_window_status_format='#{circled_window_index} #W'
@@ -123,7 +123,7 @@ tmux_conf_theme_window_status_format='#I #W'
 #     - #{hostname_ssh}
 #     - #{username}
 #     - #{username_ssh}
-tmux_conf_theme_window_status_current_fg='#32302f'      # black
+tmux_conf_theme_window_status_current_fg='#3c3836'      # black
 tmux_conf_theme_window_status_current_bg='#83a598'      # light blue
 tmux_conf_theme_window_status_current_attr='bold'
 tmux_conf_theme_window_status_current_format='#I #W'
@@ -179,17 +179,17 @@ tmux_conf_theme_right_separator_sub='|'
 #     - #{uptime_s}
 #     - #{username}
 #     - #{username_ssh}
-tmux_conf_theme_status_left=' ❐ #S | ↑#{?uptime_y, #{uptime_y}y,}#{?uptime_d, #{uptime_d}d,}#{?uptime_h, #{uptime_h}h,}#{?uptime_m, #{uptime_m}m,} '
-tmux_conf_theme_status_right='#{prefix}#{pairing}#{synchronized} #{?battery_status, #{battery_status},}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} , #(curl wttr.in?format=1) , %A %d %b %l:%M %p | #{username}#{root} | #{hostname} '
+tmux_conf_theme_status_left=' #S '
+tmux_conf_theme_status_right='#{prefix}#{pairing}#{synchronized} #{?battery_status, #{battery_status},}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} , load: #{loadavg} , #(curl wttr.in?format=1) , %A %d %b , %I:%M %p | #{username}#{root} | #{hostname} '
 
 # status left style
-tmux_conf_theme_status_left_fg='#32302f,#fbf1c7,#fbf1c7'  # black, white , white
+tmux_conf_theme_status_left_fg='#3c3836,#fbf1c7,#fbf1c7'  # black, white , white
 tmux_conf_theme_status_left_bg='#fabd2f,#d3869b,#83a598'  # yellow, pink, white blue
 tmux_conf_theme_status_left_attr='bold,none,none'
 
 # status right style
-tmux_conf_theme_status_right_fg='#fbf1c7,#fbf1c7,#32302f' # white, white, black
-tmux_conf_theme_status_right_bg='#32302f,#fb4934,#fbf1c7' # dark gray, red, white
+tmux_conf_theme_status_right_fg='#fbf1c7,#fbf1c7,#3c3836' # white, white, black
+tmux_conf_theme_status_right_bg='#3c3836,#fb4934,#fbf1c7' # dark gray, red, white
 tmux_conf_theme_status_right_attr='bold,none,bold'
 
 # pairing indicator
@@ -232,7 +232,7 @@ tmux_conf_battery_bar_length='auto'
 #   - heat
 #   - 'colour_full_fg,colour_empty_fg,colour_bg'
 tmux_conf_battery_bar_palette='gradient'
-#tmux_conf_battery_bar_palette='#fb4934,#fbf1c7,#32302f'   # red, white, black
+#tmux_conf_battery_bar_palette='#fb4934,#fbf1c7,#3c3836'   # red, white, black
 
 # battery hbar palette, possible values are:
 #   - gradient (default)
