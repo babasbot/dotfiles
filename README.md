@@ -18,6 +18,7 @@ Why would I want to version my dotfiles on GitHub?
 ln -s ~/src/dotfiles/.zshrc ~/.zshrc
 ln -s ~/src/dotfiles/.hyper.js ~/.hyper.js
 ln -s ~/src/dotfiles/init.vim ~/.config/nvim/init.vim
+ln -s ~/src/dotfiles/.gitconfig ~/.gitconfig
 ```
 
 ### License
