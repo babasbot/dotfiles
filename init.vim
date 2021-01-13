@@ -5,6 +5,7 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Yggdroot/indentLine'
 Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'jiangmiao/auto-pairs'
 Plug 'neomake/neomake'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-eunuch'
