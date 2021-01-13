@@ -1,5 +1,6 @@
 call plug#begin()
 
+Plug '/usr/local/opt/fzf'
 Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'tpope/vim-fugitive'
