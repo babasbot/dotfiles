@@ -1,6 +1,7 @@
 [user]
-name  = Luis Alfredo Lorenzo
-email = luis@babas.bot 
+	name  = Luis Alfredo Lorenzo
+	email = luis@babas.bot
 
 [rebase]
-autoSquash = true
+	autoSquash = true
+	autoStash  = true
