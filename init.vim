@@ -1,6 +1,7 @@
 call plug#begin()
 
 Plug '/usr/local/opt/fzf'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'neomake/neomake'
@@ -13,6 +14,7 @@ Plug 'vim-ruby/vim-ruby'
 
 call plug#end()
 
+let g:deoplete#enable_at_startup = 1
 let mapleader = ','
 
 set cursorcolumn
