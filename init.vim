@@ -7,6 +7,7 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+Plug 'vim-ruby/vim-ruby'
 
 call plug#end()
 
