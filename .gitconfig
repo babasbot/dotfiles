@@ -2,6 +2,9 @@
 	name  = Luis Alfredo Lorenzo
 	email = luis@babas.bot
 
+[fetch]
+	prune = true
+
 [pull]
 	rebase = true
 
