@@ -7,6 +7,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'neomake/neomake'
+Plug 'phanviet/vim-monokai-pro'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
@@ -30,6 +31,9 @@ nmap <silent> t<C-g> :TestVisit<CR>
 set cursorcolumn
 set cursorline
 set number
+set termguicolors
+
+colorscheme monokai_pro
 
 " call neomake when writing or reading a buffer, and on changes in insert and
 " normal mode (after 500ms; no delay when writing)
