@@ -3,6 +3,7 @@ call plug#begin()
 Plug '/usr/local/opt/fzf'
 Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'neomake/neomake'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
@@ -17,3 +18,7 @@ let mapleader = ','
 set cursorcolumn
 set cursorline
 set number
+
+" call neomake when writing or reading a buffer, and on changes in insert and
+" normal mode (after 500ms; no delay when writing)
+call neomake#configure#automake('nrwi', 500)
