@@ -1,5 +1,6 @@
 call plug#begin()
 
+Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
 
 call plug#end()
