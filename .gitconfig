@@ -1,3 +1,6 @@
 [user]
 name  = Luis Alfredo Lorenzo
 email = luis@babas.bot 
+
+[rebase]
+autoSquash = true
