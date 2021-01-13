@@ -2,6 +2,7 @@ call plug#begin()
 
 Plug '/usr/local/opt/fzf'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Yggdroot/indentLine'
 Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'neomake/neomake'
