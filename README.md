@@ -20,6 +20,7 @@ ln -s ~/src/dotfiles/.hyper.js ~/.hyper.js
 ln -s ~/src/dotfiles/init.vim ~/.config/nvim/init.vim
 ln -s ~/src/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/src/dotfiles/.editorconfig ~/.editorconfig
+ln -s ~/src/dotfiles/.tmux.conf ~/.tmux.conf
 ```
 
 ### License
