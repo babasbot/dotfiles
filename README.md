@@ -1,9 +1,9 @@
-# Dotfiles
+# dotfiles
 
-Dotfiles are plain text configuration files. They are called "dotfiles" as they 
+Dotfiles are plain text configuration files. They are called "dotfiles" as they
 are typically named with a leading dot, making them hidden.
 
-This repository mainly contains my shell and editor configurations and 
+This repository mainly contains my shell and editor configurations and
 preferences.
 
 Why would I want to version my dotfiles on GitHub?
@@ -12,13 +12,14 @@ Why would I want to version my dotfiles on GitHub?
 - Share what I've learned.
 - Learn from others
 
-### Installation 
+### Installation
 
 ```sh
 ln -s ~/src/dotfiles/.zshrc ~/.zshrc
 ln -s ~/src/dotfiles/.hyper.js ~/.hyper.js
 ln -s ~/src/dotfiles/init.vim ~/.config/nvim/init.vim
 ln -s ~/src/dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/src/dotfiles/.editorconfig ~/.editorconfig
 ```
 
 ### License
