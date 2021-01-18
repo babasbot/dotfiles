@@ -87,6 +87,13 @@ else
   export EDITOR='nvim'
 fi
 
+# open tmux session if installed
+if [[ $TMUX == "" ]]; then
+  if which tmux 2>&1 >/dev/null; then
+    tmux
+  fi
+fi
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
