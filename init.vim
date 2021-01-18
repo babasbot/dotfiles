@@ -35,6 +35,8 @@ set cursorline
 set number
 set termguicolors
 
+set colorcolumn=80
+
 colorscheme monokai_pro
 
 " call neomake when writing or reading a buffer, and on changes in insert and
