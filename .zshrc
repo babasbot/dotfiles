@@ -2,6 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
+export TERM=xterm-256color-italic
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/babasbot/.oh-my-zsh"
 
