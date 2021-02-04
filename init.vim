@@ -6,6 +6,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'mileszs/ack.vim'
 Plug 'neomake/neomake'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'sheerun/vim-polyglot'
@@ -20,6 +21,11 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'vim-test/vim-test'
 
 call plug#end()
+
+" use the silver searcher with ack.vim
+if executable('ag')
+  let g:ackprg = 'ag --nogroup --nocolor --column'
+endif
 
 let g:deoplete#enable_at_startup = 1
 let mapleader = ','
