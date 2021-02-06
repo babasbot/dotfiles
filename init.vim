@@ -37,6 +37,9 @@ nmap <silent> t<C-s> :TestSuite<CR>
 nmap <silent> t<C-l> :TestLast<CR>
 nmap <silent> t<C-g> :TestVisit<CR>
 
+" edit my vimrc
+nnoremap <leader><C-e> :vsplit $MYVIMRC<CR>
+
 set cursorcolumn
 set cursorline
 set number
