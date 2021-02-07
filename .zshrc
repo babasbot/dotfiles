@@ -66,12 +66,16 @@ ZSH_THEME="robbyrussell"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# automatically load a node version when if finds a .nvmrc file in the current
+# working directory
+NVM_AUTOLOAD=1
+
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git rbenv bundler rails dotenv tmux)
+plugins=(git rbenv bundler rails dotenv tmux nvm)
 
 source $ZSH/oh-my-zsh.sh
 
