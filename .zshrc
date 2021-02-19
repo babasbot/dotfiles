@@ -13,6 +13,8 @@ antigen bundle tmux
 antigen bundle rbenv
 antigen bundle nvm-auto
 
+antigen bundle babasbot/fortune-cowsay-zsh
+
 antigen theme robbyrussell
 
 antigen apply
