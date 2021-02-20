@@ -11,7 +11,7 @@ antigen bundle rails
 antigen bundle bundler
 antigen bundle tmux
 antigen bundle rbenv
-antigen bundle nvm-auto
+antigen bundle nvm
 
 antigen bundle babasbot/auto-fortune-cowsay-zsh
 antigen bundle babasbot/auto-tmux-zsh
