@@ -14,14 +14,8 @@ antigen bundle rbenv
 antigen bundle nvm-auto
 
 antigen bundle babasbot/fortune-cowsay-zsh
+antigen bundle babasbot/auto-tmux-zsh
 
 antigen theme robbyrussell
 
 antigen apply
-
-# open tmux session if installed
-if [[ $TMUX == "" ]]; then
-  if which tmux 2>&1 >/dev/null; then
-    tmux
-  fi
-fi
