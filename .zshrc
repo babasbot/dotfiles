@@ -15,6 +15,7 @@ antigen bundle nvm
 
 antigen bundle babasbot/auto-fortune-cowsay-zsh
 antigen bundle babasbot/auto-tmux-zsh
+antigen bundle babasbot/nvim-zsh
 
 antigen theme robbyrussell
 
