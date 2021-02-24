@@ -48,6 +48,9 @@ set termguicolors
 
 set colorcolumn=80
 
+" enable mouse scrolling
+set mouse=a
+
 colorscheme monokai_pro
 
 " call neomake when writing or reading a buffer, and on changes in insert and
