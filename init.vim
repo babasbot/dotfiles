@@ -7,6 +7,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'jgdavey/tslime.vim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'maxbane/vim-asm_ca65'
 Plug 'mileszs/ack.vim'
 Plug 'neomake/neomake'
 Plug 'phanviet/vim-monokai-pro'
@@ -31,6 +32,14 @@ endif
 
 let g:deoplete#enable_at_startup = 1
 let mapleader = ','
+
+let test#strategy = 'tslime'
+
+" enables asm_ca65 syntax highlighting
+filetype plugin indent on
+augroup filetypedetect
+  au BufNewFile,BufRead *.asm,*.inc set ft=asm_ca65
+augroup END
 
 " vim-test mappings
 nmap <silent> t<C-n> :TestNearest<CR>
